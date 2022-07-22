@@ -47,10 +47,14 @@
   color: #868585;
 }
 
-.title_h_2 {
-  font-family: Noto Sans;
-  font-style: bold;
+.title_bold {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
+  line-height: 25px;
+
+  color: #303030;
 }
 
 .text_18px {
@@ -65,9 +69,13 @@
 }
 
 .text_14px {
-  font-family: Noto Sans;
-  font-style: regular;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
+  line-height: 19.07px;
+
+  color: #303030;
 }
 
 .cover {
@@ -145,38 +153,110 @@
   vertical-align: middle;
 }
 .services {
+  position: absolute;
+  width: 1199px;
+  height: 763px;
+  left: 360px;
+  top: 1050px;
 }
 .services-title {
-}
-.title_gray {
+  position: absolute;
+  width: 198px;
+  height: 33px;
+  left: 360px;
+  top: 1050px;
 }
 .services-1 {
+  position: absolute;
+  width: 510px;
+  height: 116px;
+  left: 360px;
+  top: 1143px;
 }
 .services-1_title {
+  position: absolute;
+  width: 510px;
+  height: 25px;
+  left: 360px;
+  top: 1143px;
 }
-.title-bold {
-}
+
 .services-1_text {
+  position: absolute;
+  width: 510px;
+  height: 76px;
+  left: 360px;
+  top: 1183px;
 }
 .services-2 {
+  position: absolute;
+  width: 510px;
+  height: 141px;
+  left: 360px;
+  top: 1309px;
 }
 .services-2_title {
+  position: absolute;
+  width: 510px;
+  height: 50px;
+  left: 360px;
+  top: 1309px;
 }
 .services-2_text {
+  position: absolute;
+  width: 510px;
+  height: 76px;
+  left: 360px;
+  top: 1374px;
 }
 .services-3 {
+  position: absolute;
+  width: 510px;
+  height: 116px;
+  left: 360px;
+  top: 1500px;
 }
 .services-3_title {
+  position: absolute;
+  width: 510px;
+  height: 25px;
+  left: 360px;
+  top: 1500px;
 }
 .services-3_text {
+  position: absolute;
+  width: 510px;
+  height: 76px;
+  left: 360px;
+  top: 1540px;
 }
 .services-4 {
+  position: absolute;
+  width: 510px;
+  height: 116px;
+  left: 360px;
+  top: 1666px;
 }
 .services-4_title {
+  position: absolute;
+  width: 510px;
+  height: 25px;
+  left: 360px;
+  top: 1666px;
 }
 .services-4_text {
+  position: absolute;
+  width: 510px;
+  height: 76px;
+  left: 360px;
+  top: 1706px;
 }
 .services-img {
+  position: absolute;
+  width: 600px;
+  height: 670px;
+  left: 959px;
+  top: 1143px;
 }
 .green_tariff {
 }
