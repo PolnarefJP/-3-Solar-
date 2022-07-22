@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
 .body {
   height: 5783px;
   width: 1920px;
@@ -9,25 +11,40 @@
   width: 1920px;
   height: 5783px;
 
+  font-family: "Noto Sans";
+
   background: #ffffff;
 }
 
 .title_h_0 {
-  font-family: "noto-sans";
-  font-style: Bold;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
   font-size: 64px;
+  line-height: 87.17px;
+  font-variant: small-caps;
+
+  color: #ffffff;
 }
 
 .discriptor {
-  font-family: Noto Sans;
-  font-style: regular;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
   font-size: 42px;
+  line-height: 57.2px;
+
+  color: #ffffff;
 }
 
-.title_h_1 {
-  font-family: Noto Sans;
-  font-style: Bold;
+.title_gray {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
   font-size: 24px;
+  line-height: 33px;
+
+  color: #868585;
 }
 
 .title_h_2 {
@@ -37,9 +54,14 @@
 }
 
 .text_18px {
-  font-family: Noto Sans;
-  font-style: regular;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
+  line-height: 24.52px;
+  letter-spacing: 0em;
+
+  color: #ffffff;
 }
 
 .text_14px {
@@ -66,4 +88,255 @@
   top: 70px;
 
   background-image: url(/img/logo.svg);
+}
+
+.cover-text_description {
+  display: inline-block;
+
+  position: absolute;
+  width: 315.16px;
+  height: 25px;
+  left: 802px;
+  top: 261px;
+}
+
+.cover-title {
+  position: absolute;
+  width: 932px;
+  height: 86px;
+  left: 493px;
+  top: 286px;
+}
+
+.cover-text_profit {
+  position: absolute;
+  width: 589px;
+  height: 57px;
+  left: 665px;
+  top: 375px;
+}
+
+.cover-consultation_btn {
+  position: absolute;
+  width: 307.58px;
+  height: 100px;
+  left: 806px;
+  top: 482px;
+}
+
+.cover-social {
+  position: absolute;
+  width: 166.12px;
+  height: 30.03px;
+  left: 876px;
+  top: 832px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.social-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+.services {
+}
+.services-title {
+}
+.title_gray {
+}
+.services-1 {
+}
+.services-1_title {
+}
+.title-bold {
+}
+.services-1_text {
+}
+.services-2 {
+}
+.services-2_title {
+}
+.services-2_text {
+}
+.services-3 {
+}
+.services-3_title {
+}
+.services-3_text {
+}
+.services-4 {
+}
+.services-4_title {
+}
+.services-4_text {
+}
+.services-img {
+}
+.green_tariff {
+}
+.green_tariff-title {
+}
+.title-gray {
+}
+.green_tariff-tabs {
+}
+.green_tariff-tabs_line {
+}
+.green_tariff-tabs_1 {
+}
+.green_tariff-tabs_2 {
+}
+.green_tariff-tabs_3 {
+}
+.green_tarif-slider {
+}
+.green_tarif-slider_img {
+}
+.green_tarif-slider_text {
+}
+.green_tarif-slider-btn {
+}
+.slider-arrow {
+}
+.slider-arrow_l {
+}
+.slider-arrow_r {
+}
+.green_tariff-info {
+}
+.green_tariff-info_1 {
+}
+.green_tariff-info_title {
+}
+.green_tariff-info_text {
+}
+.green_tariff-info_2 {
+}
+.green_tariff-info_3 {
+}
+.green_tariff-info_4 {
+}
+.green_tariff-title_bolder {
+}
+.green_tariff_img {
+}
+.quote {
+}
+.quote-text {
+}
+.quote-background {
+}
+.our_clients {
+}
+.our_clients-title {
+}
+.our_clients_img {
+}
+.our_clients-slider {
+}
+.slider-btn {
+}
+.our_clients-title_bolder {
+}
+.our_clients-info {
+}
+.our_clients-info_string_1 {
+}
+.our_clients-info_string_2 {
+}
+.our_clients-info_string_3 {
+}
+.our_clients-info_string_4 {
+}
+.our_clients-consultation_btn {
+}
+.consultation-btn {
+}
+.round-btn {
+}
+.consultation-btn_circle {
+}
+.consultation-btn_arrow {
+}
+.consultation_text {
+}
+.steps {
+}
+.steps-title {
+}
+.steps-list {
+}
+.steps-list_1 {
+}
+.steps-list-number {
+}
+.steps-list-title {
+}
+.steps-list-text {
+}
+.steps-list_2 {
+}
+.steps-list_3 {
+}
+.steps-list_4 {
+}
+.steps-list_5 {
+}
+.steps-img {
+}
+.footer {
+}
+.background {
+}
+.footer-form {
+}
+.footer-form_title {
+}
+.footer-form_name {
+}
+.footer-form_tel {
+}
+.footer-form_btn {
+}
+.footer-contacts {
+}
+.footer-contacts_title {
+}
+.footer-contacts-info {
+}
+.footer-contacts-info_string_1 {
+}
+.footer-contacts-info_string_2 {
+}
+.footer-contacts-info_string_3 {
+}
+.footer-contacts-info_string_4 {
+}
+.footer-contacts-info_string_5 {
+}
+.footer-bottom {
+}
+.footer-bottom_privacy {
+}
+.footer-bottom-logo {
+}
+.logo {
+}
+.footer-bottom-social {
+}
+.social {
+}
+.social_ins {
+}
+.social_tel {
+}
+.social_wh {
+}
+.social_fbk {
 }
