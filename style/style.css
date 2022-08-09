@@ -14,6 +14,10 @@
   background: #ffffff;
 }
 
+.container {
+  margin-bottom: 150px;
+}
+
 .title_h_0 {
   font-family: "Noto Sans";
   font-style: normal;
@@ -77,7 +81,6 @@
 }
 
 .cover {
-  position: absolute;
   width: 1921px;
   height: 900px;
   left: -1px;
@@ -87,7 +90,6 @@
 }
 
 .cover-logo {
-  position: absolute;
   width: 182.09px;
   height: 51px;
   left: 868px;
@@ -99,7 +101,6 @@
 .cover-text_description {
   display: inline-block;
 
-  position: absolute;
   width: 315.16px;
   height: 25px;
   left: 802px;
@@ -107,7 +108,6 @@
 }
 
 .cover-title {
-  position: absolute;
   width: 932px;
   height: 86px;
   left: 493px;
@@ -115,7 +115,6 @@
 }
 
 .cover-text_profit {
-  position: absolute;
   width: 589px;
   height: 57px;
   left: 665px;
@@ -123,7 +122,6 @@
 }
 
 .cover-consultation_btn {
-  position: absolute;
   width: 307.58px;
   height: 100px;
   left: 806px;
@@ -131,7 +129,6 @@
 }
 
 .cover-social {
-  position: absolute;
   width: 166.12px;
   height: 30.03px;
   left: 876px;
@@ -151,119 +148,43 @@
   vertical-align: middle;
 }
 .services {
-  width: 1199px;
+  box-sizing: border-box;
+
+  width: 1200px;
   height: 763px;
-  left: 360px;
-  top: 1050px;
+  margin-left: 360px;
 }
 .services-title {
-  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 60px;
   width: 198px;
   height: 33px;
-  left: 360px;
-  top: 1050px;
 }
-.services-1 {
-  position: absolute;
+.services-block {
+  display: inline-block;
+  margin-bottom: 50px;
   width: 510px;
-  height: 116px;
-  left: 360px;
-  top: 1143px;
 }
-.services-1_title {
-  position: absolute;
-  width: 510px;
-  height: 25px;
-  left: 360px;
-  top: 1143px;
+.services-block_title {
+  margin-bottom: 15px;
+}
+.services-block_text {
 }
 
-.services-1_text {
-  position: absolute;
-  width: 510px;
-  height: 76px;
-  left: 360px;
-  top: 1183px;
-}
-.services-2 {
-  position: absolute;
-  width: 510px;
-  height: 141px;
-  left: 360px;
-  top: 1309px;
-}
-.services-2_title {
-  position: absolute;
-  width: 510px;
-  height: 50px;
-  left: 360px;
-  top: 1309px;
-}
-.services-2_text {
-  position: absolute;
-  width: 510px;
-  height: 76px;
-  left: 360px;
-  top: 1374px;
-}
-.services-3 {
-  position: absolute;
-  width: 510px;
-  height: 116px;
-  left: 360px;
-  top: 1500px;
-}
-.services-3_title {
-  position: absolute;
-  width: 510px;
-  height: 25px;
-  left: 360px;
-  top: 1500px;
-}
-.services-3_text {
-  position: absolute;
-  width: 510px;
-  height: 76px;
-  left: 360px;
-  top: 1540px;
-}
-.services-4 {
-  position: absolute;
-  width: 510px;
-  height: 116px;
-  left: 360px;
-  top: 1666px;
-}
-.services-4_title {
-  position: absolute;
-  width: 510px;
-  height: 25px;
-  left: 360px;
-  top: 1666px;
-}
-.services-4_text {
-  position: absolute;
-  width: 510px;
-  height: 76px;
-  left: 360px;
-  top: 1706px;
-}
 .services-img {
-  position: absolute;
+  margin-top: 93px;
+  float: right;
   width: 600px;
   height: 670px;
-  left: 959px;
-  top: 1143px;
 }
 .green_tariff {
-  position: absolute;
   width: 1200px;
   height: 765px;
   left: 360px;
   top: 1963px;
 }
 .green_tariff-title {
-  position: absolute;
   width: 217px;
   height: 33px;
   left: 362px;
@@ -271,14 +192,12 @@
 }
 
 .green_tariff-tabs {
-  position: absolute;
   width: 400px;
   height: 27px;
   left: 360px;
   top: 2056px;
 }
 .green_tariff-tabs_line {
-  position: absolute;
   width: 80px;
   height: 0px;
   left: 360px;
@@ -287,7 +206,6 @@
   border: 1px solid #303030;
 }
 .green_tariff-tabs_1 {
-  position: absolute;
   width: 82px;
   height: 22px;
   left: 360px;
@@ -296,7 +214,6 @@
   color: #303030;
 }
 .green_tariff-tabs_2 {
-  position: absolute;
   width: 115px;
   height: 22px;
   left: 482px;
@@ -305,7 +222,6 @@
   color: #303030;
 }
 .green_tariff-tabs_3 {
-  position: absolute;
   width: 123px;
   height: 22px;
   left: 637px;
@@ -314,28 +230,24 @@
   color: #303030;
 }
 .green_tarif-slider {
-  position: absolute;
   width: 510px;
   height: 200px;
   left: 360px;
   top: 2203px;
 }
 .green_tarif-slider_img {
-  position: absolute;
   width: 235px;
   height: 200px;
   left: 360px;
   top: 2203px;
 }
 .green_tarif-slider_text {
-  position: absolute;
   width: 235px;
   height: 114px;
   left: 635px;
   top: 2203px;
 }
 .green_tarif-slider-btn {
-  position: absolute;
   width: 102px;
   height: 0px;
   left: 636px;
@@ -345,7 +257,6 @@
 .slider-arrow_l {
   box-sizing: border-box;
 
-  position: absolute;
   width: 40px;
   height: 0px;
   left: 676px;
@@ -357,7 +268,6 @@
 .slider-arrow_r {
   box-sizing: border-box;
 
-  position: absolute;
   width: 40px;
   height: 0px;
   left: 698px;
@@ -367,7 +277,6 @@
 }
 
 .green_tariff-info {
-  position: absolute;
   width: 510px;
   height: 214px;
   left: 360px;
@@ -383,44 +292,36 @@
 }
 
 .green_tariff-info_1 {
-  position: absolute;
   width: 235px;
   height: 109.44px;
   left: 360px;
   top: 2503px;
 }
 .green_tariff-info_2 {
-  .green_tariff-info_1 {
-    position: absolute;
-    width: 235px;
-    height: 109.44px;
-    left: 360px;
-    top: 2503px;
-  }
+  width: 235px;
+  height: 109.44px;
+  left: 360px;
+  top: 2503px;
 }
 .green_tariff-info_3 {
-  position: absolute;
   width: 235px;
   height: 88px;
   left: 360px;
   top: 2629px;
 }
 .green_tariff-info_4 {
-  position: absolute;
   width: 235px;
   height: 72.53px;
   left: 635px;
   top: 2629px;
 }
 .green_tariff-title_bolder {
-  position: absolute;
   width: 600px;
   height: 130px;
   left: 960px;
   top: 2056px;
 }
 .green_tariff_img {
-  position: absolute;
   width: 600px;
   height: 525px;
   left: 960px;
